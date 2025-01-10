@@ -25,6 +25,7 @@ export default addNotes()
 {
     
 }
+//Function to delete note
 export default deleteNotes(id)
 {
 
