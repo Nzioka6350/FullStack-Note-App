@@ -40,6 +40,7 @@ export default deleteUser(id)
 {
 
 }
+//Function to edit user
 export default updateUser(id)
 {
 
