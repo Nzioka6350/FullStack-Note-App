@@ -1,4 +1,4 @@
-import mysql2 from mysql2;
+import mysql2 from 'mysql2';
 
 const db = mysql2.createPool({
     host: 'localhost',
@@ -7,10 +7,12 @@ const db = mysql2.createPool({
     database: 'notes'
 })
 
-db.connect((err)=>{
+db.getConnection((err,connection)=>{
     if(err)
     {
         console.log(err)
+        return;
     }
     console.log("Connected Successfully")
+    connection.release();
 })
