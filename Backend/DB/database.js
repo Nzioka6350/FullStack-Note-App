@@ -35,6 +35,7 @@ export default addUser()
 {
 
 }
+//Function to delete user
 export default deleteUser(id)
 {
 
