@@ -40,4 +40,3 @@ export default updateUser(id)
 {
 
 }
-export default 
