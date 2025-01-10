@@ -5,7 +5,7 @@ app.set('view engine','ejs');
 app.use(express.static('public'))
 
 app.get('/test',(req,res)=>{
-    res.send("Yoh I'm just kidding")
+    res.send('login')
 })
 
 app.listen(port,()=>{
