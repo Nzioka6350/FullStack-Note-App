@@ -18,5 +18,17 @@ db.getConnection((err,connection)=>{
 })//Function to get all notes
 export default getNotes()
 {
+
+}
+export default addNotes()
+{
+    
+}
+export default deleteNotes(id)
+{
+
+}
+export default addUser()
+{
     
 }
