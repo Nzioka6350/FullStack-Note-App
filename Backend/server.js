@@ -5,10 +5,10 @@ app.set('view engine','ejs');
 app.use(express.static('public'))
 
 app.get('/login',(req,res)=>{
-    res.send('login')
+    res.render('login')
 })
 app.get('/register',(req,res)=>{
-    res.send('register')
+    res.render('register')
 })
 app.get('/notes',(req,res)=>{
     res.render('allNotes')
