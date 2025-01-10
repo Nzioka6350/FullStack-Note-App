@@ -30,5 +30,14 @@ export default deleteNotes(id)
 }
 export default addUser()
 {
-    
+
 }
+export default deleteUser(id)
+{
+
+}
+export default updateUser(id)
+{
+
+}
+export default 
