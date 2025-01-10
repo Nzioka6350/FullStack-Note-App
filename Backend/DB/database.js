@@ -6,3 +6,11 @@ const db = mysql2.createPool({
     password: 'MAKUENIkenya2020',
     database: 'notes'
 })
+
+db.connect((err)=>{
+    if(err)
+    {
+        console.log(err)
+    }
+    console.log("Connected Successfully")
+})
