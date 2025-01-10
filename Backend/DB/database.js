@@ -15,4 +15,8 @@ db.getConnection((err,connection)=>{
     }
     console.log("Connected Successfully")
     connection.release();
-})
+})//Function to get all notes
+export default getNotes()
+{
+    
+}
