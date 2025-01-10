@@ -20,6 +20,7 @@ export default getNotes()
 {
 
 }
+//Function to add notes
 export default addNotes()
 {
     
