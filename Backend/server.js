@@ -4,8 +4,14 @@ const port = 5000;
 app.set('view engine','ejs');
 app.use(express.static('public'))
 
-app.get('/test',(req,res)=>{
+app.get('/login',(req,res)=>{
     res.send('login')
+})
+app.get('/register',(req,res)=>{
+    res.send('register')
+})
+app.get('/notes',(req,res)=>{
+    res.render('allNotes')
 })
 
 app.listen(port,()=>{
