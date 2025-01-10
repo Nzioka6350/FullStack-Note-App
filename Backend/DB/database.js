@@ -30,6 +30,7 @@ export default deleteNotes(id)
 {
 
 }
+//Function to add user
 export default addUser()
 {
 
