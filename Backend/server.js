@@ -23,6 +23,8 @@ app.post('/newUser',(req,res)=>{
 app.post('/addedNote',(req,res)=>{
 
 })
+
+//
 app.listen(port,()=>{
     console.log("app is running on port",{port})
 })
