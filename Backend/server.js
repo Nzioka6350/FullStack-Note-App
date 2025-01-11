@@ -13,7 +13,9 @@ app.get('/register',(req,res)=>{
 app.get('/notes',(req,res)=>{
     res.render('allNotes')
 })
-
+app.post('/newUser',(req,res)=>{
+    
+})
 app.listen(port,()=>{
     console.log("app is running on port",{port})
 })
