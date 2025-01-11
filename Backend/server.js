@@ -14,6 +14,9 @@ app.get('/notes',(req,res)=>{
     res.render('allNotes')
 })
 app.post('/newUser',(req,res)=>{
+
+})
+app.post('/addedNote',(req,res)=>{
     
 })
 app.listen(port,()=>{
