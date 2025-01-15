@@ -11,6 +11,7 @@ app.get('/login',(req,res)=>{
 app.get('/register',(req,res)=>{
     res.render('register')
 })
+
 //Route to get all the notes
 app.get('/notes',(req,res)=>{
     res.render('allNotes')
