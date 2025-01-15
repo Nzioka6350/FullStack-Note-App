@@ -7,6 +7,7 @@ app.use(express.static('public'))
 app.get('/login',(req,res)=>{
     res.render('login')
 })
+
 //Route to get rester page
 app.get('/register',(req,res)=>{
     res.render('register')
