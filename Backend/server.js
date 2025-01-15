@@ -20,6 +20,7 @@ app.get('/notes',(req,res)=>{
 app.post('/newUser',(req,res)=>{
 
 })
+
 //Store new note to the database
 app.post('/addedNote',(req,res)=>{
 
