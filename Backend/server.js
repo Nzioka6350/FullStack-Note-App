@@ -24,7 +24,7 @@ app.post('/addedNote',(req,res)=>{
 
 })
 
-//
+//Listening
 app.listen(port,()=>{
     console.log("app is running on port",{port})
 })
