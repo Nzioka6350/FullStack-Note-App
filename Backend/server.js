@@ -15,6 +15,7 @@ app.get('/register',(req,res)=>{
 app.get('/notes',(req,res)=>{
     res.render('allNotes')
 })
+
 //Route to create new user
 app.post('/newUser',(req,res)=>{
 
